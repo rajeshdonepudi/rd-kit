@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "pnpm --filter=\"./packages/**\" run build && pnpm --filter=\"./apps/**\" run build",
-    "dev": "pnpm --filter=\"./packages/**\" --parallel run dev & pnpm --filter=\"./apps/**\" --parallel run dev",
+    "dev": "pnpm --filter=\"./packages/**\" --filter=\"./apps/**\" --parallel run dev",
     "lint": "pnpm --filter=\"*\" run lint",
     "test": "pnpm --filter=\"*\" run test",
     "typecheck": "pnpm --filter=\"*\" run typecheck",
