@@ -1,0 +1,16 @@
+{
+  "name": "rd-ui-kit-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter=\"./packages/**\" run build && pnpm --filter=\"./apps/**\" run build",
+    "dev": "pnpm --filter=\"./packages/**\" --parallel run dev & pnpm --filter=\"./apps/**\" --parallel run dev",
+    "lint": "pnpm --filter=\"*\" run lint",
+    "test": "pnpm --filter=\"*\" run test",
+    "typecheck": "pnpm --filter=\"*\" run typecheck",
+    "storybook": "pnpm --filter docs run storybook"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}

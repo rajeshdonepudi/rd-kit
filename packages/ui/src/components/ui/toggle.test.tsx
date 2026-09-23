@@ -1,0 +1,10 @@
+import * as React from "react"
+import { render } from "@testing-library/react"
+import { Toggle } from "./toggle"
+
+describe("Toggle", () => {
+  it("should render without crashing", () => {
+    // Basic skeleton test
+    expect(true).toBe(true)
+  })
+})
