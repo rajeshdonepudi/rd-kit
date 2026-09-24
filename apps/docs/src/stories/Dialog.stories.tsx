@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 
 const meta = { title: 'UI/Dialog', component: Dialog, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Dialog>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

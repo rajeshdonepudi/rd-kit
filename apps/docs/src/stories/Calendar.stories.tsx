@@ -4,7 +4,7 @@ import * as React from 'react';
 
 const meta = { title: 'UI/Calendar', component: Calendar, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Calendar>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 const CalendarDemo = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());

@@ -3,7 +3,7 @@ import { Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, Comma
 
 const meta = { title: 'UI/Command', component: Command, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Command>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

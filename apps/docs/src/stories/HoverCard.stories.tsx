@@ -3,7 +3,7 @@ import { HoverCard, HoverCardContent, HoverCardTrigger, Button, Avatar, AvatarFa
 
 const meta = { title: 'UI/HoverCard', component: HoverCard, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof HoverCard>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

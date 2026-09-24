@@ -3,7 +3,7 @@ import { Skeleton } from '@rd-kit/ui';
 
 const meta = { title: 'UI/Skeleton', component: Skeleton, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Skeleton>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

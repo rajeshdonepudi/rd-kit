@@ -1,8 +1,11 @@
-import { Button, Input, Card, CardHeader, CardTitle, CardContent, CardFooter, Badge } from "@rd-kit/ui"
+import { Button, Input, Card, CardHeader, CardTitle, CardContent, CardFooter, Badge, Toaster, useToast } from "@rd-kit/ui"
 
 function App() {
+  const { toast } = useToast()
+
   return (
-    <div className="p-8 max-w-2xl mx-auto space-y-8">
+    <>
+      <div className="p-8 max-w-2xl mx-auto space-y-8">
       <h1 className="text-3xl font-bold mb-4">RD UI Kit Playground</h1>
       
       <section className="space-y-4">
@@ -58,7 +61,25 @@ function App() {
           </CardFooter>
         </Card>
       </section>
-    </div>
+        <section className="space-y-4">
+          <h2 className="text-xl font-semibold">Toasts</h2>
+          <div className="flex gap-4">
+            <Button
+              variant="outline"
+              onClick={() => {
+                toast({
+                  title: "Scheduled: Catch up",
+                  description: "Friday, February 10, 2024 at 5:57 PM",
+                })
+              }}
+            >
+              Show Toast
+            </Button>
+          </div>
+        </section>
+      </div>
+      <Toaster />
+    </>
   )
 }
 

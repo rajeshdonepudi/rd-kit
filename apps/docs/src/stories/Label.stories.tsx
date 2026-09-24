@@ -3,7 +3,7 @@ import { Label, Checkbox } from '@rd-kit/ui';
 
 const meta = { title: 'UI/Label', component: Label, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Label>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

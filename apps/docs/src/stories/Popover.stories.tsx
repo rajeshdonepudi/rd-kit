@@ -3,7 +3,7 @@ import { Popover, PopoverContent, PopoverTrigger, Button, Input, Label } from '@
 
 const meta = { title: 'UI/Popover', component: Popover, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Popover>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

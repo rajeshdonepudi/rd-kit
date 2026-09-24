@@ -3,7 +3,7 @@ import { Textarea, Label, Button } from '@rd-kit/ui';
 
 const meta = { title: 'UI/Textarea', component: Textarea, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Textarea>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

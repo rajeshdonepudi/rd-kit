@@ -3,7 +3,7 @@ import { Switch, Label } from '@rd-kit/ui';
 
 const meta = { title: 'UI/Switch', component: Switch, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Switch>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

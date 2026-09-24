@@ -4,7 +4,7 @@ import * as React from 'react';
 
 const meta = { title: 'UI/NavigationMenu', component: NavigationMenu, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof NavigationMenu>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

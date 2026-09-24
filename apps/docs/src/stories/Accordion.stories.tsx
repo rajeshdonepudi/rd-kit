@@ -3,7 +3,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@r
 
 const meta = { title: 'UI/Accordion', component: Accordion, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Accordion>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

@@ -14,6 +14,7 @@ export * from "./components/ui/checkbox"
 export * from "./components/ui/collapsible"
 export * from "./components/ui/command"
 export * from "./components/ui/context-menu"
+export { DataTable } from "./components/ui/data-table"
 export * from "./components/ui/dialog"
 export * from "./components/ui/drawer"
 export * from "./components/ui/dropdown-menu"
@@ -33,6 +34,7 @@ export * from "./components/ui/scroll-area"
 export * from "./components/ui/select"
 export * from "./components/ui/separator"
 export * from "./components/ui/sheet"
+export * from "./components/ui/sidebar"
 export * from "./components/ui/skeleton"
 export * from "./components/ui/slider"
 export { Toaster as SonnerToaster } from "./components/ui/sonner"
@@ -47,6 +49,7 @@ export * from "./components/ui/toggle"
 export * from "./components/ui/tooltip"
 
 // Hooks
+export * from "./hooks/use-mobile"
 export * from "./hooks/use-toast"
 
 // Utils

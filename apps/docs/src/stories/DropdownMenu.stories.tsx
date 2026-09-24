@@ -3,7 +3,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 
 const meta = { title: 'UI/DropdownMenu', component: DropdownMenu, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof DropdownMenu>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

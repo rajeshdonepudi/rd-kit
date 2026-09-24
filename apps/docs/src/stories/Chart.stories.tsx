@@ -12,7 +12,7 @@ const meta = {
 } satisfies Meta<typeof ChartContainer>;
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },

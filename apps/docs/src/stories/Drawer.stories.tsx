@@ -3,7 +3,7 @@ import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, Dr
 
 const meta = { title: 'UI/Drawer', component: Drawer, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Drawer>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

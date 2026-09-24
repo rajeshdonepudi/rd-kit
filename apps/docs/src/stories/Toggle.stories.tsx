@@ -4,7 +4,7 @@ import { Bold } from 'lucide-react';
 
 const meta = { title: 'UI/Toggle', component: Toggle, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Toggle>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

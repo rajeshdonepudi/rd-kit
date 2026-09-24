@@ -3,7 +3,7 @@ import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, Me
 
 const meta = { title: 'UI/Menubar', component: Menubar, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Menubar>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

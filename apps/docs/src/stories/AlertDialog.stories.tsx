@@ -3,7 +3,7 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, 
 
 const meta = { title: 'UI/AlertDialog', component: AlertDialog, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof AlertDialog>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (

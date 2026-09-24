@@ -3,7 +3,7 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbP
 
 const meta = { title: 'UI/Breadcrumb', component: Breadcrumb, parameters: { layout: 'centered' }, tags: ['autodocs'] } satisfies Meta<typeof Breadcrumb>;
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<any>;
 
 export const Default: Story = {
   render: () => (
