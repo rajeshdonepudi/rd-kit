@@ -22,8 +22,8 @@ function App() {
         <div className="flex flex-col gap-4 max-w-sm">
           <Input placeholder="Default input..." />
           <Input placeholder="Disabled input..." disabled />
-          <Input placeholder="Invalid input..." isInvalid />
-          <Input placeholder="Amount" prefix="$" suffix=".00" />
+          <Input placeholder="Invalid input..." />
+          <Input placeholder="Amount" />
         </div>
       </section>
 

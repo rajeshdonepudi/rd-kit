@@ -13,7 +13,8 @@
     "./src/styles/globals.css": "./src/styles/globals.css"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "tsup",
