@@ -1,4 +1,4 @@
-# RD UI Kit Monorepo
+# RD Kit Monorepo
 
 A modern, accessible UI component library built with React, Tailwind CSS, and Radix UI. This project is structured as a pnpm monorepo.
 
